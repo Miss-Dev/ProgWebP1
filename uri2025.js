@@ -11,7 +11,7 @@ for(var i = 0; i < n; i++){
     frase = frase.map(line => {        
         if(line.length <= 12 && line.slice(1, 9).toLowerCase() == 'oulupukk'){
             if(line.length > 10)
-                return "Joulupukki"+"."
+                return "Joulupukki"+".";
             return "Joulupukki";
         }
         return line;
